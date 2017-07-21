@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter()
+}
+
+test {
+    testLogging.showStandardStreams = true
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
